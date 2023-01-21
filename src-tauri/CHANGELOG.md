@@ -1,5 +1,14 @@
 # Changelog
 
+## \[0.3.0]
+
+- Elk Native now supports standard keyboard shortcurts like Copy, Paste, Cut, and Fullscreen.
+  - [affbb93](https://github.com/elk-zone/elk-native/commit/affbb93bd2edcd34f01b909bfff323086b670e17) fix: standard keyboard shortcuts ([#57](https://github.com/elk-zone/elk-native/pull/57)) on 2023-01-21
+- You can now double-click the titlebar on macOS to maximize or restore the window.
+  - [5d04868](https://github.com/elk-zone/elk-native/commit/5d04868620f2e24ffd38533ef2e4bbcddc939351) fix(macOS): enable titlebar double-click minimize and restore ([#54](https://github.com/elk-zone/elk-native/pull/54)) on 2023-01-21
+- Elk Native now remembers the window's last position and size and will restore them when reopened.
+  - [c954195](https://github.com/elk-zone/elk-native/commit/c9541952c5674bdf247749d4d02750c4ff57fdb7) feat: remember last window size and position ([#53](https://github.com/elk-zone/elk-native/pull/53)) on 2023-01-21
+
 ## \[0.2.1]
 
 - Update elk to v0.6.1
